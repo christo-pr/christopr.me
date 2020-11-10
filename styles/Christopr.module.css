@@ -1,0 +1,51 @@
+.christopr-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 33%);
+  gap: 0;
+}
+
+.christopr-grid div {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.christopr-grid div:nth-child(1) {
+  background: var(--color-1);
+}
+.christopr-grid div:nth-child(2) {
+  background: var(--color-2);
+}
+.christopr-grid div:nth-child(3) {
+  background: var(--color-1);
+}
+.christopr-grid div:nth-child(4) {
+  background: var(--color-2);
+}
+.christopr-grid div:nth-child(5) {
+  background: var(--color-3);
+}
+.christopr-grid div:nth-child(6) {
+  background: var(--color-5);
+}
+.christopr-grid div:nth-child(7) {
+  background: var(--color-3);
+}
+.christopr-grid div:nth-child(8) {
+  background: var(--color-7);
+}
+.christopr-grid div:nth-child(9) {
+  background: var(--color-1);
+}
+.christopr-grid div:nth-child(10) {
+  background: var(--color-7);
+}
+.christopr-grid div:nth-child(11) {
+  background: var(--color-5);
+}
+.christopr-grid div:nth-child(12) {
+  background: var(--color-1);
+}

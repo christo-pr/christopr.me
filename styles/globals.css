@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Variables */
+:root {
+  --black: #393e46;
+  --color-1: #4e89ae;
+  --color-2: #43658b;
+  --color-3: #ed6663;
+  --color-4: #ffa372;
+  --color-5: #16213e;
+  --color-6: #ffc93c;
+  --color-7: #cdc9c3;
+}
