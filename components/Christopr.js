@@ -1,47 +1,62 @@
-import React from "react"
-import Link from "next/link"
-import { FaRegUserCircle as UserIcon } from "react-icons/fa"
-import { RiCodeSSlashLine as AboutIcon } from "react-icons/ri"
+import React, { useState } from "react"
 
 import styles from "styles/Christopr.module.css"
-import MySocials from "components/MySocials"
+import ChristoprItem from "./ui/ChristoprItem"
 
 export default function Christopr(props) {
+  const [inverted, setInverted] = useState(false)
+
+  const items = [
+    {
+      type: "me",
+      title: "José Christofer Flores Ortega",
+    },
+    {
+      type: "about",
+      link: {
+        to: "/about",
+        text: "Acerca de mi",
+      },
+    },
+    {
+      type: "empty",
+    },
+    {
+      type: "socials",
+    },
+    {
+      type: "work",
+    },
+    {
+      type: "empty",
+    },
+    {
+      type: "text",
+      text: "Surfin Waves and code",
+    },
+    {
+      type: "placeholder",
+    },
+    {
+      type: "emtpy",
+    },
+    {
+      type: "placeholder",
+    },
+    {
+      type: "emtpy",
+    },
+    {
+      type: "projects",
+      text: "Mis Projectos",
+      onClick: () => setInverted((old) => !old),
+    },
+  ]
   return (
     <div className={styles["christopr-grid"]}>
-      <div>
-        <UserIcon size={80} />
-        <h1>Jose Christofer Flores Ortega</h1>
-      </div>
-      <div>
-        <AboutIcon size={80} />
-        <Link href="/about">Acerca de mi</Link>
-      </div>
-      <div></div>
-      <div>
-        <h2>Sigueme!</h2>
-        <MySocials />
-      </div>
-      <div>
-        <p>
-          Software Developer at{" "}
-          <a
-            href="https://michelada.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            michelada.io
-          </a>
-          Living in Colima, Mex.
-        </p>
-      </div>
-      <div>item</div>
-      <div>item</div>
-      <div>item</div>
-      <div>item</div>
-      <div>item</div>
-      <div>item</div>
-      <div>item</div>
+      {items.map((item, id) => (
+        <ChristoprItem key={`item-type-${id}`} {...item} inverted={inverted} />
+      ))}
     </div>
   )
 }

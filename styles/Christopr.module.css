@@ -14,6 +14,9 @@
 .christopr-grid p {
   font-size: 20px;
 }
+.christopr-grid p * {
+  font-size: 20px;
+}
 
 .christopr-grid h1 {
   font-size: 50px;
@@ -26,6 +29,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.christopr-grid div img {
+  width: 100%;
 }
 
 .christopr-grid div:nth-child(1) {

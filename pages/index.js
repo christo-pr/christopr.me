@@ -1,7 +1,7 @@
 import Head from "next/head"
 
 import styles from "styles/Home.module.css"
-import Footer from "components/Footer"
+import Footer from "components/ui/Footer"
 import Christopr from "components/Christopr"
 
 export default function Home() {
