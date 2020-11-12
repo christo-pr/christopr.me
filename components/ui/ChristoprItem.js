@@ -32,7 +32,7 @@ export default function ChristoprItem(props) {
       {text && <p>{text}</p>}
       {link && <Link href={link.to}>{link.text}</Link>}
       {type === "project" && (
-        <a href={info.url} target="_blank">
+        <a href={info.url} target={info.url === "#" ? "_self" : "_blank"}>
           <img src={info.image} alt={info.name} />
           <h3>
             {info.name}

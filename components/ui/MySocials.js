@@ -9,13 +9,23 @@ export default function MySocials(props) {
   return (
     <ul>
       <li>
-        <Twitter />
+        <a
+          href="https://twitter.com/christo_pr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Twitter />
+        </a>
       </li>
       <li>
-        <Linkedin />
+        <a href="https://www.linkedin.com/in/christofer-flores/">
+          <Linkedin />
+        </a>
       </li>
       <li>
-        <Github />
+        <a href="https://github.com/christo-pr">
+          <Github />
+        </a>
       </li>
     </ul>
   )
