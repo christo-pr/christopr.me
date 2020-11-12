@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Turret Road", cursive;
 }
 
 a {
@@ -18,11 +19,9 @@ a {
 /* Variables */
 :root {
   --black: #393e46;
-  --color-1: #4e89ae;
-  --color-2: #43658b;
-  --color-3: #ed6663;
-  --color-4: #ffa372;
-  --color-5: #16213e;
-  --color-6: #ffc93c;
-  --color-7: #cdc9c3;
+  --red: #ed6663;
+  --color-4: #ffc93c;
+  --color-3: #07689f;
+  --color-2: #40a8c4;
+  --color-1: #a2d5f2;
 }

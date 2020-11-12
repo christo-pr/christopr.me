@@ -5,13 +5,16 @@
 .chpr-item h3 {
   position: absolute;
   margin: 0;
-  width: 100%;
-  background: green;
+  width: 50%;
+  background: var(--red);
   color: white;
-  padding: 0.5rem;
-  bottom: 0;
+  padding: 0.5rem 1.5rem;
+  top: 1.5rem;
   z-index: 1;
-  left: 0;
+  right: 16.5rem;
+  transform: rotate(-45deg);
+  font-size: 20px;
+  text-align: center;
 }
 
 .chpr-item img {

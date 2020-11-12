@@ -5,6 +5,11 @@
   justify-content: center;
   align-items: center;
   padding: 20px 0;
+  background-color: var(--black);
+  color: white;
+  margin-top: 0rem;
+  z-index: 99;
+  margin-top: 1rem;
 }
 
 .footer img {
