@@ -107,3 +107,36 @@
   top: 0;
   left: 0;
 }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .christopr-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .christopr-grid > div {
+    min-height: 250px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .christopr-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .christopr-grid > div {
+    min-height: 250px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .christopr-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .christopr-grid > div {
+    min-height: 250px;
+  }
+}

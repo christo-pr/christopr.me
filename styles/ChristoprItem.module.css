@@ -21,3 +21,27 @@
   top: 0;
   left: 0;
 }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .placeholder,
+  .empty {
+    display: none !important;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .placeholder,
+  .empty {
+    display: none !important;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .placeholder,
+  .empty {
+    display: none;
+  }
+}

@@ -25,9 +25,26 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container,
+  .main {
+    padding: 0;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .container,
+  .main {
+    padding: 0;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .container,
+  .main {
+    padding: 0;
   }
 }

@@ -21,9 +21,7 @@ export default function ChristoprItem(props) {
   const { type, title, text, link, info } = props
 
   const Icon = ICONS[type]
-  const containerClasses = `${styles["chpr-item"]} ${
-    type === "placeholder" ? "placholder" : ""
-  }`
+  const containerClasses = `${styles["chpr-item"]} ${styles[type]}`
 
   return (
     <div className={containerClasses}>
