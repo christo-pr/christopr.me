@@ -1,20 +1,17 @@
 [
   {
     "type": "me",
-    "title": "José Christofer Flores Ortega",
-    "inverted": false
+    "title": "José Christofer Flores Ortega"
   },
   {
     "type": "about",
     "link": {
       "to": "/about",
       "text": "Acerca de mi"
-    },
-    "inverted": false
+    }
   },
   {
     "type": "project",
-    "inverted": true,
     "info": {
       "name": "La Carlota Colima",
       "url": "https://lacarlota.christopr.me",
@@ -22,28 +19,23 @@
     }
   },
   {
-    "type": "socials",
-    "inverted": false
+    "type": "socials"
   },
   {
-    "type": "work",
-    "inverted": false
+    "type": "work"
   },
   {
-    "type": "empty",
-    "inverted": false
+    "type": "empty"
   },
   {
     "type": "text",
-    "text": "Surfin Waves and code",
-    "inverted": false
+    "text": "Surfin Waves and code"
   },
   {
     "type": "placeholder"
   },
   {
     "type": "project",
-    "inverted": true,
     "info": {
       "name": "La Carlota Colima",
       "url": "https://lacarlota.christopr.me",
@@ -55,7 +47,6 @@
   },
   {
     "type": "project",
-    "inverted": true,
     "info": {
       "name": "La Carlota Colima",
       "url": "https://lacarlota.christopr.me",
@@ -63,8 +54,6 @@
     }
   },
   {
-    "type": "projects",
-    "text": "Mis Projectos",
-    "inverted": false
+    "type": "empty"
   }
 ]

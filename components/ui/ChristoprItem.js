@@ -15,26 +15,23 @@ const ICONS = {
 }
 
 export default function ChristoprItem(props) {
-  const { type, title, text, link, onClick, inverted, info } = props
+  const { type, title, text, link, info } = props
 
   const Icon = ICONS[type]
   const containerClasses = `${styles["chpr-item"]} ${
-    inverted ? "show" : "hide"
-  } ${type === "placeholder" ? "placholder" : ""}`
+    type === "placeholder" ? "placholder" : ""
+  }`
 
   return (
-    <div
-      className={containerClasses}
-      onClick={() => type === "projects" && onClick()}
-    >
+    <div className={containerClasses}>
       {Icon && <Icon size={80} />}
       {title && <h1>{title}</h1>}
       {text && <p>{text}</p>}
       {link && <Link href={link.to}>{link.text}</Link>}
       {type === "project" && (
         <a href={info.url} target="_blank">
-          <h3>{info.name}</h3>
           <img src={info.image} alt={info.name} />
+          <h3>{info.name}</h3>
         </a>
       )}
       {type === "socials" && (
