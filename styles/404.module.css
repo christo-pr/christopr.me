@@ -1,0 +1,12 @@
+.notFound {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.back {
+  font-size: 30px;
+  position: absolute;
+  top: 5rem;
+  left: 15%;
+}
