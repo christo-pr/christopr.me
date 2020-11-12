@@ -1,6 +1,9 @@
 import React from "react"
 import Link from "next/link"
-import { FaRegUserCircle as UserIcon } from "react-icons/fa"
+import {
+  FaRegUserCircle as UserIcon,
+  FaExternalLinkSquareAlt as ExternalIcon,
+} from "react-icons/fa"
 import { RiCodeSSlashLine as AboutIcon } from "react-icons/ri"
 import { GrAchievement as ProjectsIcon } from "react-icons/gr"
 
@@ -31,7 +34,11 @@ export default function ChristoprItem(props) {
       {type === "project" && (
         <a href={info.url} target="_blank">
           <img src={info.image} alt={info.name} />
-          <h3>{info.name}</h3>
+          <h3>
+            {info.name}
+            &nbsp;
+            <ExternalIcon size={20} />
+          </h3>
         </a>
       )}
       {type === "socials" && (
