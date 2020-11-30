@@ -7,7 +7,7 @@
     "type": "about",
     "link": {
       "to": "/about",
-      "text": "Acerca de mi"
+      "text": "JS, Ruby, Python, PHP"
     }
   },
   {
@@ -28,8 +28,8 @@
     "type": "empty"
   },
   {
-    "type": "text",
-    "text": "Surfin Waves and code"
+    "type": "do",
+    "text": "Creating bugs, Surfing Waves and Living the life all in one"
   },
   {
     "type": "placeholder"

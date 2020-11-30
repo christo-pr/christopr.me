@@ -49,7 +49,9 @@ export default function ChristoprItem(props) {
       {type === "work" && (
         <>
           <p>
-            Software Developer at{" "}
+            Living and making code at Colima, Mex.
+            <br />
+            Working for a cool company called <br />
             <a
               href="https://michelada.io"
               target="_blank"
@@ -58,7 +60,6 @@ export default function ChristoprItem(props) {
               michelada.io
             </a>
           </p>
-          <p>Living in Colima, Mex.</p>
         </>
       )}
     </div>
